@@ -1,16 +1,43 @@
-# fitstart
+# FitStart Task
 
-A new Flutter project.
+A Flutter-based mobile application designed to demonstrate task-based UI implementation. This project showcases a clean layout with multiple screens, custom widgets, and Flutter navigation principles.
 
-## Getting Started
+## 📱 Screens
 
-This project is a starting point for a Flutter application.
+- **Home Screen**  
+  Displays a list of workout categories and quick access to key features.
 
-A few resources to get you started if this is your first Flutter project:
+- **Detail Screen**  
+  Showcases detailed information for a specific workout or plan.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Custom Widgets**  
+  Reusable UI components are built for better maintainability and a cleaner codebase.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Features
+
+- Clean, modular Flutter architecture
+- Stateless and Stateful widget usage
+- Use of `ListView`, `Stack`, and `Positioned` for layout
+- Navigation between screens using `Navigator.push`
+- Custom UI design elements (buttons, text styles, shadows)
+
+
+## 🎨 Tech Stack
+
+- **Flutter** (UI Toolkit)
+- **Dart** (Programming Language)
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Flutter SDK
+- Android Studio / VS Code with Flutter extensions
+- Emulator or real device
+
+### Installation
+
+```bash
+git clone https://github.com/Pratyush-who/FitStart-Task.git
+cd FitStart-Task
+flutter pub get
+flutter run
